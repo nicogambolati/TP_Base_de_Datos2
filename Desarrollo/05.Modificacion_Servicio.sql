@@ -1,7 +1,7 @@
 ﻿CREATE PROCEDURE Modificacion_Servicio
 	@id int,
-	@nuevo_nombre varchar(50) NULL,
-	@nuevo_tipo char(2) NULL
+	@nuevo_nombre varchar(50)=NULL,
+	@nuevo_tipo char(2)=NULL
 AS 
 BEGIN
 	UPDATE Servicio		

@@ -1,8 +1,8 @@
 ﻿CREATE PROCEDURE Modificacion_Profesional
 	@id int,
-	@nuevo_nombre varchar(255) NULL,
-	@nuevo_email varchar(80) NULL,
-	@nuevo_telefono varchar (40) NULL
+	@nuevo_nombre varchar(255)=NULL,
+	@nuevo_email varchar(80)=NULL,
+	@nuevo_telefono varchar (40)=NULL
 AS 
 BEGIN
 	UPDATE Profesional
